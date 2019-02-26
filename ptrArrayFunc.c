@@ -8,6 +8,10 @@ int sumOfArrayElements (int arraySize, int *firstAddr)
     for (i=0;i<arraySize;i++)
     {
         sum = sum + *(firstAddr+i);
+        /*
+        this can also be coded as below:
+        */
+//        sum = sum + firstAddr[i];
     }
     
     return sum;
