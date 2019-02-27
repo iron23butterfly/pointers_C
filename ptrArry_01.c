@@ -13,6 +13,7 @@ void    main ()
     printf("\n*p %d", *p);
     printf("\np %d", p);
     printf("\na %d", a);
+    printf("\n*a %d", *a);
     
 //    printf("\n*p[1] %d", *p[1]);
 /*  The above line will throw an eror as 
@@ -30,7 +31,8 @@ p[2] 32
 p[3] 41                                                                                                                          
 p[4] 15                                                                                                                          
 *p 4                                                                                                                             
-p -1970076704                                                                                                                    
-a -1970076704
+p 362685088                                                                                                                      
+a 362685088                                                                                                                      
+*a 4
 
 */
