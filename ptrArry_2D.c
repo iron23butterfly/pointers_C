@@ -13,7 +13,7 @@ void    main ()
     printf("\nB[0][0] %d", B[0][0]);
     
     // printf("\n*B[0][0] %d", *B[0][0]);
-    // above is not permitted as array cannnot be accesses like its Pointer
+    // above is not permitted as the array cannot be accessed like its Pointer
     
     printf("\n&B[0][0] %d", &B[0][0]);
     printf("\nB+1 %d", (B+1));
@@ -47,7 +47,7 @@ void    main ()
 
 //    printf("\n*p1[1][1] %d", *p1[1][1]);
 /*
-The above statement fill give an error as the pointer array is 1D
+The above statement will give an error as the pointer array is 1D
 */
 }
 
