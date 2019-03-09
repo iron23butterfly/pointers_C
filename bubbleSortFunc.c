@@ -1,3 +1,5 @@
+// Using Function Pointer
+
 #include <stdio.h>
 
 int compare(int n1, int n2)
